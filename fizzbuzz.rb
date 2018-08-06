@@ -4,8 +4,9 @@
 def fizzbuzz(int)
   if int%3==0
     "Fizz"
-  end
-  if int%5==0
+  elsif int%5==0
     "Buzz"
+  elsif int%15==0
+    "FizzBuzz"
   end
 end
